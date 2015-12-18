@@ -8,6 +8,10 @@ HTMLy have a cloud update feature and fetch the sources from Github repo, so no 
 
 If you need to add or modify the theme or creating new user you must use FTP instead of git. All files are saved inside `$OPENSHIFT_DATA_DIR/www` and the `$OPENSHIFT_REPO_DIR` is just a placeholder that contains the `www` symlink to HTMLy installation directory.
 
+**Quick install:**
+
+[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Click to install.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=php-5.4&initial_git_url=https://github.com/danpros/htmly-openshift.git&name=htmly)
+
 **Step by step:**
 
 * Create your application using the console.
@@ -17,3 +21,7 @@ If you need to add or modify the theme or creating new user you must use FTP ins
 * Set your public URL, and for source code put `https://github.com/danpros/htmly-openshift.git`. Click `Create Application`.
 
 * Visit `yourapp.rhcloud.com/installer.php` to start the installation.
+
+**Demo blog:**
+
+[HTMLy OpenShift Demo](http://www.directorize.com)
