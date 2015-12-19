@@ -165,7 +165,7 @@ span.required {
                     <?php if($version !== null):?><a href="<?php echo $version['html_url']; ?>" target="_blank"> HTMLy <small>/<?php echo $version['tag_name']; ?>/</a></small><?php else: ?>HTMLy<?php endif;?>
                 </h1>
                 <div id="blog-tagline">
-                    <p>the HTMLy Installer Tool <small> /v1.2.7/</small></p>
+                    <p>the HTMLy Installer Tool <small> /v1.2.8/</small></p>
                 </div>
             </div>
         </header>
@@ -4532,7 +4532,7 @@ class Settings
             echo "</html>";
         } elseif ($this->runForm()) {
             unlink(__FILE__);
-            header("Location:" . $this->siteUrl . "add/post");
+            header("Location:" . $this->siteUrl . "add/content?type=post");
             exit();
         } else {
             $updater = new Updater;
