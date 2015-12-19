@@ -10,7 +10,7 @@ If you need to add or modify the theme or creating new user you must use FTP ins
 
 **Quick install:**
 
-[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Click to install.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=php-5.4&initial_git_url=https://github.com/danpros/htmly-openshift.git&name=htmly)
+[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Click to install.svg)](https://hub.openshift.com/quickstarts/deploy/219-htmly)
 
 **Step by step:**
 
