@@ -24,4 +24,4 @@ If you need to add or modify the theme or creating new user you must use FTP ins
 
 **Demo blog:**
 
-[HTMLy OpenShift Demo](http://www.directorize.com)
+[HTMLy OpenShift Demo](http://demo-htmly.rhcloud.com)
